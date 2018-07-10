@@ -26,6 +26,20 @@
 		display: block;
 	}
 
+	#newsletter #email {
+		font-size: 1em;
+		width: 65%;
+		height: 40px;
+		border: none;
+		vertical-align: middle;
+		padding-left: 10px;
+	}
+
+	#newsletter .button {
+		font-size: 0.9em;
+		vertical-align: middle
+	}
+
 	body {
 		line-height: 1;
 	}
@@ -216,7 +230,11 @@
 		.container {
 			width: 90% !important;
 		}
-
+		
+		#newsletter #email {
+			width: 100%;
+			margin-bottom: 10px;
+		}
 	}
 
 /* Grid */
@@ -3078,18 +3096,4 @@
 
 	#newsletter {
 		display: inline;
-	}
-
-	#newsletter #email {
-		font-size: 1em;
-		width: 65%;
-		height: 40px;
-		border: none;
-		vertical-align: middle;
-		padding-left: 10px;
-	}
-
-	#newsletter .button {
-		font-size: 0.9em;
-		vertical-align: middle
 	}
